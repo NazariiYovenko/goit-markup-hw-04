@@ -121,6 +121,11 @@ img {
   margin-right: 50px;
 }
 
+.icon-nav {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
 .site-nav .link {
   display: inline-block;
 
@@ -144,6 +149,8 @@ img {
 }
 
 .contact-nav .link {
+  display: flex;
+  align-items: center;
   color: var(--primary-text-color);
 
   padding-top: 32px;
