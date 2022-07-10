@@ -425,6 +425,12 @@ img {
   color: var(--invert-text-color);
 }
 
+/* Клиенты */
+
+.clients-icon {
+  fill: tomato;
+}
+
 /* Карточки и сетка - Портфолио */
 
 .portfolio .cards {
