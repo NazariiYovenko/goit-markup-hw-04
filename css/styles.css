@@ -13,6 +13,7 @@
   --third-background-color: #2f303a;
   --header-border: #ececec;
   --card-set-gap: 30px;
+  --icon-color: #afb1b8;
 }
 
 /* Общие стили и стили для сброса */
@@ -364,7 +365,29 @@ img {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
+}
+
+.command-social {
+  display: flex;
+  justify-content: space-between;
+  width: 206px;
+  margin: 0 auto 30px;
+}
+
+.command-icon-box {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  fill: var(--icon-color);
+}
+
+.command-icon-box:hover {
+  background-color: var(--accent);
+  border-radius: 50%;
+  fill: var(--invert-text-color);
 }
 
 /* Портфолио */
